@@ -30,3 +30,8 @@ setTimeout(() => {
 setTimeout(() => {
   process.stdout.write('\r\\   '); 
 }, 1500);
+
+// Add a new line at the end
+setTimeout(() => {
+  process.stdout.write('\n');
+}, 1700);
